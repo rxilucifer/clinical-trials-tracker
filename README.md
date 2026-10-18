@@ -22,6 +22,7 @@ shown in `data/trials.csv` (column `downloaded_on`) and changes over time.
 2. `python fetch_trials.py` downloads the trials into `data/trials.csv`
 3. `python analyze_trials.py` cleans the data and creates summary tables and charts
 4. `streamlit run dashboard.py` opens the dashboard
+5. `python operations_view.py` creates the operations tables and charts
 
 ## Dashboard
 
@@ -43,3 +44,22 @@ text, open any trial on ClinicalTrials.gov, and download the filtered list.
 ![Trials by status](images/trials_by_status.png)
 
 ![Top sponsors](images/top_sponsors.png)
+
+## Operations view
+
+`operations_view.py` answers questions a clinical operations team would ask:
+which trials are recruiting now and where, which trials need attention (a
+completion date that has passed while the trial is still active, a start date
+that has passed while it is still "not yet recruiting", an unknown or
+suspended status), how long completed trials take, and how large the site
+footprint is. The results appear on the Operations page of the dashboard.
+
+![Cities with the most recruiting trials](images/ops_recruiting_cities.png)
+
+![Trials that need attention](images/ops_attention_flags.png)
+
+![Operations page](images/ops_dashboard.png)
+
+**Limits:** flags are leads, not proof. Registry records can simply be out of
+date. Trial duration is measured from the registered start date to the
+registered completion date, which may be planned dates.
