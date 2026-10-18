@@ -13,7 +13,7 @@ shown in `data/trials.csv` (column `downloaded_on`) and changes over time.
 ## Status
 - [x] Phase 1: Download trial data
 - [x] Phase 2: Clean and analyse
-- [ ] Phase 3: Dashboard
+- [x] Phase 3: Dashboard
 - [ ] Phase 4: Operations view
 - [ ] Phase 5: Findings report
 
@@ -21,6 +21,17 @@ shown in `data/trials.csv` (column `downloaded_on`) and changes over time.
 1. `pip install -r requirements.txt`
 2. `python fetch_trials.py` downloads the trials into `data/trials.csv`
 3. `python analyze_trials.py` cleans the data and creates summary tables and charts
+4. `streamlit run dashboard.py` opens the dashboard
+
+## Dashboard
+
+`dashboard.py` is a Streamlit app for exploring the trials. You can filter by
+status, phase, sponsor type, where the trial runs and start year, search by
+text, open any trial on ClinicalTrials.gov, and download the filtered list.
+
+![Dashboard overview](images/dashboard_01.png)
+
+![Dashboard trials table](images/dashboard_02.png)
 
 ## Analysis
 
