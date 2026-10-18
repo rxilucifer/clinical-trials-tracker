@@ -20,3 +20,15 @@ shown in `data/trials.csv` (column `downloaded_on`) and changes over time.
 ## How to run
 1. `pip install -r requirements.txt`
 2. `python fetch_trials.py` downloads the trials into `data/trials.csv`
+3. `python analyze_trials.py` cleans the data and creates summary tables and charts
+
+## Analysis
+
+`analyze_trials.py` cleans the downloaded data and produces summary tables in
+`output/` and charts in `images/`.
+
+![Trials by start year](images/trials_by_year.png)
+
+![Trials by status](images/trials_by_status.png)
+
+![Top sponsors](images/top_sponsors.png)
