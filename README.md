@@ -12,7 +12,7 @@ shown in `data/trials.csv` (column `downloaded_on`) and changes over time.
 
 ## Status
 - [x] Phase 1: Download trial data
-- [ ] Phase 2: Clean and analyse
+- [x] Phase 2: Clean and analyse
 - [ ] Phase 3: Dashboard
 - [ ] Phase 4: Operations view
 - [ ] Phase 5: Findings report

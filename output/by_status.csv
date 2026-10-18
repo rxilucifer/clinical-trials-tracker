@@ -1,0 +1,11 @@
+status,trials,percent
+Completed,438,75.4
+Unknown,51,8.8
+Terminated,35,6.0
+Recruiting,35,6.0
+"Active, not recruiting",9,1.5
+Withdrawn,4,0.7
+Not yet recruiting,4,0.7
+Suspended,2,0.3
+Enrolling by invitation,2,0.3
+Available,1,0.2
