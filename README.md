@@ -58,7 +58,9 @@ footprint is. The results appear on the Operations page of the dashboard.
 
 ![Trials that need attention](images/ops_attention_flags.png)
 
-![Operations page](images/ops_dashboard.png)
+![Operations page overview](images/ops_dashboard_01.png)
+
+![Operations page tables](images/ops_dashboard_02.png)
 
 **Limits:** flags are leads, not proof. Registry records can simply be out of
 date. Trial duration is measured from the registered start date to the
