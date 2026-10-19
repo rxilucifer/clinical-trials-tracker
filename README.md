@@ -15,7 +15,7 @@ shown in `data/trials.csv` (column `downloaded_on`) and changes over time.
 - [x] Phase 2: Clean and analyse
 - [x] Phase 3: Dashboard
 - [x] Phase 4: Operations view
-- [5] Phase 5: Findings report
+- [x] Phase 5: Findings report
 
 ## How to run
 1. `pip install -r requirements.txt`
