@@ -21,9 +21,9 @@ shown in `data/trials.csv` (column `downloaded_on`) and changes over time.
 1. `pip install -r requirements.txt`
 2. `python fetch_trials.py` downloads the trials into `data/trials.csv`
 3. `python analyze_trials.py` cleans the data and creates summary tables and charts
-4. `streamlit run dashboard.py` opens the dashboard
-5. `python operations_view.py` creates the operations tables and charts
-6. `python make_report.py` writes the findings report to `docs/findings_report.md`
+4. `python operations_view.py` creates the operations tables and charts
+5. `python make_report.py` writes the findings report to `docs/findings_report.md`
+6. `streamlit run dashboard.py` opens the dashboard, including the Operations page
 
 ## Dashboard
 
