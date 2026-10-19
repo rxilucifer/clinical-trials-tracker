@@ -15,7 +15,7 @@ shown in `data/trials.csv` (column `downloaded_on`) and changes over time.
 - [x] Phase 2: Clean and analyse
 - [x] Phase 3: Dashboard
 - [x] Phase 4: Operations view
-- [ ] Phase 5: Findings report
+- [5] Phase 5: Findings report
 
 ## How to run
 1. `pip install -r requirements.txt`
@@ -23,6 +23,7 @@ shown in `data/trials.csv` (column `downloaded_on`) and changes over time.
 3. `python analyze_trials.py` cleans the data and creates summary tables and charts
 4. `streamlit run dashboard.py` opens the dashboard
 5. `python operations_view.py` creates the operations tables and charts
+6. `python make_report.py` writes the findings report to `docs/findings_report.md`
 
 ## Dashboard
 
@@ -65,3 +66,15 @@ footprint is. The results appear on the Operations page of the dashboard.
 **Limits:** flags are leads, not proof. Registry records can simply be out of
 date. Trial duration is measured from the registered start date to the
 registered completion date, which may be planned dates.
+
+## Key findings
+
+Full report: [docs/findings_report.md](docs/findings_report.md)
+
+1. **Most trials are finished.** 438 of 581 trials (75%) are completed, and 35 are recruiting now.
+2. **Sponsors.** 406 trials (70%) have an industry lead sponsor. The three most frequent sponsors are Novo Nordisk A/S (104), AstraZeneca (53), Eli Lilly and Company (52).
+3. **Global and local trials.** 246 trials (42%) run only in India. 335 (58%) also have sites in other countries.
+4. **Early stopping.** Of 477 finished trials, 39 (8%) were terminated or withdrawn.
+5. **Operations.** Cities with the most recruiting trials: Pune (13), Bangalore (11), Nagpur (11). 66 trials (11%) have at least one flag that deserves a closer look.
+
+These numbers are a snapshot of the registry on the download date shown in the full report.
